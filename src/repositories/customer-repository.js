@@ -34,7 +34,7 @@ exports.put = async(id, data) => {
 // Delete
 
 exports.delete = async(id) => {
-    await Produto.findByIdAndDelete(id);
+    await Customer.findByIdAndDelete(id);
 }
 
 
